@@ -1,0 +1,14 @@
+
+entity Profile {
+  userName String,
+  profilePicture ImageBlob,
+  phoneNo Long,
+  location String,
+  
+}
+
+
+
+service all with serviceImpl
+
+angularSuffix * with mySuffix
